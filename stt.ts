@@ -1,10 +1,10 @@
-import { Readable } from "stream";
-import { AssemblyAI, RealtimeTranscript } from "assemblyai";
+import { AssemblyAI, type RealtimeTranscript } from "assemblyai";
 import { SoxRecording } from "./sox.ts";
+import { history, run_llm } from "./llm.ts";
 
-const run = async () => {
+export const run_stt = async () => {
   const client = new AssemblyAI({
-    apiKey: "e3528e614b5f45b3a2250cd0b2d924b6",
+    apiKey: process.env.ASSEMBLYAI_API_KEY as string,
   });
 
   const SAMPLE_RATE = 16_000;
@@ -30,7 +30,8 @@ const run = async () => {
       return;
     }
 
-    console.log("Final:", transcript.text);
+    history.push({ role: "user", content: transcript.text });
+    run_llm();
   });
 
   console.log("Connecting to real-time transcript service");
@@ -43,7 +44,7 @@ const run = async () => {
     audioType: "wav", // Linear PCM
   });
 
-  recording.stream().pipeTo(transcriber.stream());
+  recording.stream().pipeTo(transcriber.stream() as WritableStream<any>);
 
   // Stop recording and close connection using Ctrl-C.
   process.on("SIGINT", async function () {
@@ -57,5 +58,3 @@ const run = async () => {
     process.exit();
   });
 };
-
-run();
