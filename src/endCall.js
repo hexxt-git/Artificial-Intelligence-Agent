@@ -1,11 +1,19 @@
 import { logger } from "./logger.js";
 import axios from "axios";
+import format from 'pretty-format';
 
 export const endCall = async (judgement) => {
   try {
+    console.log('\n\n')
+    console.log({judgement})
+    console.log('\n\n')
+
     const response = await axios.post(
-      "http://192.168.8.121:8080/add_complain",
-      { ...judgement },
+      "http://192.168.8.121:8000/api/complaints/",
+      {
+        ...judgement, // ai output is already checked by zod schema
+        staffID: 1, // special staff id for Automated calls
+      },
       {
         headers: {
           Authorization: `Bearer ${process.env.API_KEY}`,

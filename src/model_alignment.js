@@ -308,7 +308,7 @@ const customerData = [
   "rating: a rating from 0 to 5 about how the user liked the service",
 ];
 
-export const dataExtractorPrompt = `
+export const judgePrompt = `
 You are an AI model assisting in SATIM's call center operations. Your primary tasks are to accurately extract and structure customer data from support calls, and to determine the appropriate action to take.
 this data will be in json format between the customer with role user and assistant.
 
@@ -405,11 +405,11 @@ Ensure all extracted data is accurate and relevant to SATIM's operations. This i
 
 `;
 
-fs.writeFileSync("systemData.md", dataExtractorPrompt);
+fs.writeFileSync("systemData.md", judgePrompt);
 
 import { z } from "zod";
 
-export const CallCenterSchema = z.object({
+export const judgeSchema = z.object({
   name: z.string().optional(),
   contactNumber: z.string().optional(),
   emailAddress: z.string().optional(),

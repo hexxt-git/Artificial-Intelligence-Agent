@@ -1,6 +1,6 @@
 import { AssemblyAI } from "assemblyai";
 import { SoxRecording } from "./sox.js";
-import { say } from "./llm.js";
+import { say } from "./language_processing.js";
 import { logger } from "./logger.js";
 
 export const run_stt = async () => {

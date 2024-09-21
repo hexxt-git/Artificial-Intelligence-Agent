@@ -1,14 +1,10 @@
 import OpenAI from "openai";
-import { tts } from "./tts.js";
-import {
-  systemPrompt,
-  dataExtractorPrompt,
-  CallCenterSchema,
-} from "./system.js";
+import { tts } from "./text_to_speech.js";
+import { systemPrompt, judgePrompt, judgeSchema } from "./model_alignment.js";
 import { logger } from "./logger.js";
 import { endCall } from "./endCall.js";
 
-const openai = new OpenAI();
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const history = [
   {
@@ -50,7 +46,7 @@ const run_llm = async () => {
       messages: [
         {
           role: "system",
-          content: dataExtractorPrompt,
+          content: judgePrompt,
         },
         {
           role: "user",
@@ -62,7 +58,7 @@ const run_llm = async () => {
     let judgementContent = judgement.choices[0].message.content.trim();
     if (/^```.+```$/.test(judgementContent))
       judgementContent = judgementContent.slice(3, -3);
-    const judgementData = CallCenterSchema.parse(JSON.parse(judgementContent));
+    const judgementData = judgeSchema.parse(JSON.parse(judgementContent));
     logger.info(`Judgement data: ${JSON.stringify(judgementData)}`);
 
     history.push({
@@ -75,12 +71,12 @@ const run_llm = async () => {
     logger.info(`Text-to-speech successful!`);
 
     if (judgementData.action === "endCall") {
-      
       logger.info("Ending call...");
-      endCall(judgementData)
+      endCall(judgementData);
     } else if (judgementData.action === "transferToOperator") {
       logger.info("Transferring call to human operator...");
-      endCall(judgementData)
+      // await transferToOperator();
+      endCall(judgementData);
     }
   } catch (error) {
     logger.error(`Error during call: ${error}`);
@@ -97,4 +93,4 @@ export const say = async (text) => {
   }
 };
 
-say("transfer me to an operator");
+say("direct me to a human please")

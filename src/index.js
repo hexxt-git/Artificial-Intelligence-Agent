@@ -1,4 +1,4 @@
-import { run_stt } from "./stt.js";
+import { run_stt } from "./audio_processing.js";
 import { configDotenv } from "dotenv";
 import figlet from "figlet";
 import { logger } from "./logger.js";
