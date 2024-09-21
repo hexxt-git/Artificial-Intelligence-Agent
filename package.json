@@ -1,7 +1,11 @@
 {
   "name": "artificial-intelligence-agent",
-  "module": "index.ts",
+  "module": "src/index.js",
   "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "system": "node src/system.js"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -10,8 +14,12 @@
   },
   "dependencies": {
     "assemblyai": "^4.7.0",
+    "dotenv": "^16.4.5",
     "elevenlabs": "^0.16.0",
+    "figlet": "^1.7.0",
     "openai": "^4.63.0",
-    "play-sound": "^1.1.6"
+    "play-sound": "^1.1.6",
+    "winston": "^3.14.2",
+    "zod": "^3.23.8"
   }
 }
