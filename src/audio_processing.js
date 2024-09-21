@@ -3,6 +3,8 @@ import { SoxRecording } from "./sox.js";
 import { say } from "./language_processing.js";
 import { logger } from "./logger.js";
 
+export let recording = null;
+
 export const run_stt = async () => {
   const client = new AssemblyAI({
     apiKey: process.env.ASSEMBLYAI_API_KEY,
@@ -40,12 +42,14 @@ export const run_stt = async () => {
   await transcriber.connect();
 
   logger.info("Starting recording");
-  const recording = new SoxRecording({
+  recording = new SoxRecording({
     channels: 1,
     sampleRate: SAMPLE_RATE,
     audioType: "wav", // Linear PCM
   });
 
+  // inf future version implement mobile support through piping the stream here
+  // we don't have required hardware to test this feature
   recording.stream().pipeTo(transcriber.stream());
   logger.info("Recording started and streaming to transcription service");
 

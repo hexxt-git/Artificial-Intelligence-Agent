@@ -163,3 +163,445 @@
 2024-09-21 09:59:00 [INFO]: Real-Time STT system starting...
 2024-09-21 09:59:34 [ERROR]: Error during transcription: Error: read ECONNRESET
 2024-09-21 09:59:34 [INFO]: Session closed with code: 1006, reason: 
+2024-09-21 10:16:56 [INFO]: Environment variables loaded successfully
+2024-09-21 10:16:56 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:16:56 [INFO]: Real-Time STT system starting...
+2024-09-21 10:16:58 [INFO]: Session opened with ID: 13a9b55e-6a96-450e-8f0e-7a587275f384
+2024-09-21 10:16:58 [INFO]: Starting recording
+2024-09-21 10:16:58 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:16:58 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:17:06 [INFO]: Received final transcript: Hello.
+2024-09-21 10:17:06 [INFO]: User input: Hello.
+2024-09-21 10:17:06 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:17:07 [INFO]: OpenAI API call successful!
+2024-09-21 10:17:07 [INFO]: Chat response: Hello! May I have your name, please?
+2024-09-21 10:17:07 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:17:09 [INFO]: OpenAI API call successful!
+2024-09-21 10:17:09 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The customer initiated the call but did not provide any information.","action":"continue","rating":""}
+2024-09-21 10:17:09 [INFO]: Initiating text-to-speech...
+2024-09-21 10:17:09 [INFO]: Starting TTS process for text: "Hello! May I have your name, please?"
+2024-09-21 10:17:10 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:17:10 [INFO]: Converted response to buffer
+2024-09-21 10:17:10 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-0.mp3
+2024-09-21 10:17:10 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-0.mp3
+2024-09-21 10:17:13 [INFO]: Audio played successfully
+2024-09-21 10:17:13 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-0.mp3
+2024-09-21 10:17:13 [INFO]: Text-to-speech successful!
+2024-09-21 10:17:16 [INFO]: Received final transcript: May I have your name?
+2024-09-21 10:17:16 [INFO]: User input: May I have your name?
+2024-09-21 10:17:16 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:17:17 [INFO]: OpenAI API call successful!
+2024-09-21 10:17:17 [INFO]: Chat response: I'm your friendly AI assistant here to help you. May I please have your name?
+2024-09-21 10:17:17 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:17:19 [INFO]: OpenAI API call successful!
+2024-09-21 10:17:19 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"The customer did not provide their name and instead asked for the assistant's name.","action":"endCall","rating":""}
+2024-09-21 10:17:19 [INFO]: Initiating text-to-speech...
+2024-09-21 10:17:19 [INFO]: Starting TTS process for text: "I'm your friendly AI assistant here to help you. May I please have your name?"
+2024-09-21 10:17:19 [INFO]: Received final transcript: My name is Mohammed.
+2024-09-21 10:17:20 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:17:21 [INFO]: Converted response to buffer
+2024-09-21 10:17:21 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-693.mp3
+2024-09-21 10:17:21 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-693.mp3
+2024-09-21 10:17:26 [INFO]: Audio played successfully
+2024-09-21 10:17:26 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-693.mp3
+2024-09-21 10:17:26 [INFO]: Text-to-speech successful!
+2024-09-21 10:17:26 [INFO]: Ending call...
+2024-09-21 10:17:26 [INFO]: Exiting...
+2024-09-21 10:19:10 [INFO]: Environment variables loaded successfully
+2024-09-21 10:19:10 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:19:10 [INFO]: Real-Time STT system starting...
+2024-09-21 10:19:11 [INFO]: Session opened with ID: 2ea13a08-129b-4159-9bd9-4637dd7b70b4
+2024-09-21 10:19:11 [INFO]: Starting recording
+2024-09-21 10:19:11 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:19:11 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:19:20 [INFO]: Received final transcript: Hello. Good morning.
+2024-09-21 10:19:20 [INFO]: User input: Hello. Good morning.
+2024-09-21 10:19:20 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:19:21 [INFO]: OpenAI API call successful!
+2024-09-21 10:19:21 [INFO]: Chat response: Good morning! May I have your name, please?
+2024-09-21 10:19:21 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:19:23 [INFO]: OpenAI API call successful!
+2024-09-21 10:19:23 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"","callSummary":"","action":"continue","rating":""}
+2024-09-21 10:19:23 [INFO]: Initiating text-to-speech...
+2024-09-21 10:19:23 [INFO]: Starting TTS process for text: "Good morning! May I have your name, please?"
+2024-09-21 10:19:24 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:19:24 [INFO]: Converted response to buffer
+2024-09-21 10:19:24 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-252.mp3
+2024-09-21 10:19:24 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-252.mp3
+2024-09-21 10:19:27 [INFO]: Audio played successfully
+2024-09-21 10:19:27 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-252.mp3
+2024-09-21 10:19:27 [INFO]: Text-to-speech successful!
+2024-09-21 10:19:32 [INFO]: Received final transcript: Good morning. May I have your name, please? Yes. My name is Salah.
+2024-09-21 10:19:32 [INFO]: User input: Good morning. May I have your name, please? Yes. My name is Salah.
+2024-09-21 10:19:32 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:19:33 [INFO]: OpenAI API call successful!
+2024-09-21 10:19:33 [INFO]: Chat response: Thank you, Salah! How can I assist you today?
+2024-09-21 10:19:33 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:19:35 [INFO]: OpenAI API call successful!
+2024-09-21 10:19:35 [INFO]: Judgement data: {"name":"Salah","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"Customer introduced themselves as Salah, initiating the call.","action":"continue","rating":""}
+2024-09-21 10:19:35 [INFO]: Initiating text-to-speech...
+2024-09-21 10:19:35 [INFO]: Starting TTS process for text: "Thank you, Salah! How can I assist you today?"
+2024-09-21 10:19:36 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:19:37 [INFO]: Converted response to buffer
+2024-09-21 10:19:37 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-31.mp3
+2024-09-21 10:19:37 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-31.mp3
+2024-09-21 10:19:38 [INFO]: Received final transcript: Keep it.
+2024-09-21 10:19:40 [INFO]: Audio played successfully
+2024-09-21 10:19:40 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-31.mp3
+2024-09-21 10:19:40 [INFO]: Text-to-speech successful!
+2024-09-21 10:19:43 [INFO]: Received final transcript: Thank you, Salah. How can I assist you today?
+2024-09-21 10:19:43 [INFO]: User input: Thank you, Salah. How can I assist you today?
+2024-09-21 10:19:43 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:19:44 [INFO]: OpenAI API call successful!
+2024-09-21 10:19:44 [INFO]: Chat response: It seems like we're echoing each other; could you please tell me what you need help with today?
+2024-09-21 10:19:44 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:19:45 [INFO]: OpenAI API call successful!
+2024-09-21 10:19:45 [ERROR]: Error during call: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+2024-09-21 10:20:09 [INFO]: Received final transcript: How is mad? I saw you joke.
+2024-09-21 10:20:09 [INFO]: User input: How is mad? I saw you joke.
+2024-09-21 10:20:09 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:20:10 [INFO]: OpenAI API call successful!
+2024-09-21 10:20:10 [INFO]: Chat response: I'm here to help with customer service inquiries; please let me know how I can assist you today!
+2024-09-21 10:20:10 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:20:11 [INFO]: Received final transcript: Who are you?
+2024-09-21 10:20:12 [INFO]: OpenAI API call successful!
+2024-09-21 10:20:12 [ERROR]: Error during call: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+2024-09-21 10:20:57 [INFO]: Received final transcript: Complaint.
+2024-09-21 10:20:57 [INFO]: User input: Complaint.
+2024-09-21 10:20:57 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:20:58 [INFO]: OpenAI API call successful!
+2024-09-21 10:20:58 [INFO]: Chat response: I understand, Salah. Could you please tell me what the complaint is regarding?
+2024-09-21 10:20:58 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:20:59 [INFO]: Received final transcript: I want to complain.
+2024-09-21 10:21:01 [INFO]: OpenAI API call successful!
+2024-09-21 10:21:01 [INFO]: Judgement data: {"name":"Salah","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer initiated a call regarding a complaint but did not provide specific details.","action":"continue","rating":""}
+2024-09-21 10:21:01 [INFO]: Initiating text-to-speech...
+2024-09-21 10:21:01 [INFO]: Starting TTS process for text: "I understand, Salah. Could you please tell me what the complaint is regarding?"
+2024-09-21 10:21:02 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:21:03 [INFO]: Converted response to buffer
+2024-09-21 10:21:03 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-840.mp3
+2024-09-21 10:21:03 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-840.mp3
+2024-09-21 10:21:05 [INFO]: SIGINT received, stopping recording
+2024-09-21 10:23:12 [INFO]: Environment variables loaded successfully
+2024-09-21 10:23:12 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:23:12 [INFO]: Real-Time STT system starting...
+2024-09-21 10:23:13 [INFO]: Session opened with ID: 769a73cb-5bb5-412a-bb85-8d1806876879
+2024-09-21 10:23:13 [INFO]: Starting recording
+2024-09-21 10:23:13 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:23:13 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:23:20 [INFO]: Received final transcript: Hello. Can you hear me or can you say.
+2024-09-21 10:23:20 [INFO]: User input: Hello. Can you hear me or can you say.
+2024-09-21 10:23:20 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:23:21 [INFO]: OpenAI API call successful!
+2024-09-21 10:23:21 [INFO]: Chat response: Hello! Yes, I can hear you clearly. May I have your name, please?
+2024-09-21 10:23:21 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:23:24 [INFO]: OpenAI API call successful!
+2024-09-21 10:23:24 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The user is inquiring if the assistant can hear them clearly.","action":"continue","rating":""}
+2024-09-21 10:23:24 [INFO]: Initiating text-to-speech...
+2024-09-21 10:23:24 [INFO]: Starting TTS process for text: "Hello! Yes, I can hear you clearly. May I have your name, please?"
+2024-09-21 10:23:25 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:23:26 [INFO]: Converted response to buffer
+2024-09-21 10:23:26 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-764.mp3
+2024-09-21 10:23:26 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-764.mp3
+2024-09-21 10:23:30 [INFO]: Audio played successfully
+2024-09-21 10:23:30 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-764.mp3
+2024-09-21 10:23:30 [INFO]: Text-to-speech successful!
+2024-09-21 10:23:34 [INFO]: Received final transcript: May I have your name, please?
+2024-09-21 10:23:34 [INFO]: User input: May I have your name, please?
+2024-09-21 10:23:34 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:23:35 [INFO]: OpenAI API call successful!
+2024-09-21 10:23:35 [INFO]: Chat response: I'm here to assist you, but I need your name first to better help you. Can you please share it with me?
+2024-09-21 10:23:35 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:23:37 [INFO]: OpenAI API call successful!
+2024-09-21 10:23:37 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The customer is inquiring about the assistant's name.","action":"continue","rating":""}
+2024-09-21 10:23:37 [INFO]: Initiating text-to-speech...
+2024-09-21 10:23:37 [INFO]: Starting TTS process for text: "I'm here to assist you, but I need your name first to better help you. Can you please share it with me?"
+2024-09-21 10:23:39 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:23:40 [INFO]: Converted response to buffer
+2024-09-21 10:23:40 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-819.mp3
+2024-09-21 10:23:40 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-819.mp3
+2024-09-21 10:23:46 [INFO]: Audio played successfully
+2024-09-21 10:23:46 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-819.mp3
+2024-09-21 10:23:46 [INFO]: Text-to-speech successful!
+2024-09-21 10:23:50 [INFO]: Received final transcript: What? Can you please share it with me?
+2024-09-21 10:23:50 [INFO]: User input: What? Can you please share it with me?
+2024-09-21 10:23:50 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:23:51 [INFO]: OpenAI API call successful!
+2024-09-21 10:23:51 [INFO]: Chat response: I’m sorry, but I don't have a name; I'm your AI assistant. Could you please provide your name?
+2024-09-21 10:23:51 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:23:53 [INFO]: OpenAI API call successful!
+2024-09-21 10:23:53 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The user seems confused and repeatedly asks for the assistant's name.","action":"continue","rating":""}
+2024-09-21 10:23:53 [INFO]: Initiating text-to-speech...
+2024-09-21 10:23:53 [INFO]: Starting TTS process for text: "I’m sorry, but I don't have a name; I'm your AI assistant. Could you please provide your name?"
+2024-09-21 10:23:54 [INFO]: Received response from OpenAI TTS API
+2024-09-21 10:23:55 [INFO]: Converted response to buffer
+2024-09-21 10:23:55 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-819.mp3
+2024-09-21 10:23:55 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-819.mp3
+2024-09-21 10:23:55 [INFO]: SIGINT received, stopping recording
+2024-09-21 10:29:21 [INFO]: Environment variables loaded successfully
+2024-09-21 10:29:21 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:29:21 [INFO]: Real-Time STT system starting...
+2024-09-21 10:29:22 [INFO]: Session opened with ID: 42157676-166a-4300-8848-9eb1a726b523
+2024-09-21 10:29:22 [INFO]: Starting recording
+2024-09-21 10:29:22 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:29:22 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:29:27 [INFO]: Received final transcript: The.
+2024-09-21 10:29:27 [INFO]: User input: The.
+2024-09-21 10:29:27 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:29:28 [INFO]: OpenAI API call successful!
+2024-09-21 10:29:28 [INFO]: Chat response: Hello! May I have your name, please?
+2024-09-21 10:29:28 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:29:31 [INFO]: OpenAI API call successful!
+2024-09-21 10:29:31 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"The user did not provide any relevant information or context for assistance.","action":"endCall","rating":""}
+2024-09-21 10:29:31 [INFO]: Initiating text-to-speech...
+2024-09-21 10:29:31 [INFO]: Starting TTS process using ElevenLabs for text: "Hello! May I have your name, please?"
+2024-09-21 10:29:35 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:29:38 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:29:38 [INFO]: Text-to-speech successful!
+2024-09-21 10:29:38 [INFO]: Ending call...
+2024-09-21 10:29:38 [INFO]: Received final transcript: Brother.
+2024-09-21 10:29:38 [INFO]: User input: Brother.
+2024-09-21 10:29:38 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:29:39 [INFO]: OpenAI API call successful!
+2024-09-21 10:29:39 [INFO]: Chat response: Thank you, Brother! How can I assist you today?
+2024-09-21 10:29:39 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:29:41 [INFO]: OpenAI API call successful!
+2024-09-21 10:29:41 [ERROR]: Error during call: SyntaxError: Expected double-quoted property name in JSON at position 489
+2024-09-21 10:29:46 [INFO]: Received final transcript: Oh, it's methyl. Yes.
+2024-09-21 10:29:46 [INFO]: User input: Oh, it's methyl. Yes.
+2024-09-21 10:29:46 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:29:46 [INFO]: OpenAI API call successful!
+2024-09-21 10:29:46 [INFO]: Chat response: Thank you, Methyl! How may I assist you today?
+2024-09-21 10:29:47 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:29:49 [INFO]: OpenAI API call successful!
+2024-09-21 10:29:49 [INFO]: Judgement data: {"name":"Methyl","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The customer provided their name as Methyl and is likely looking to inquire about a service or issue.","action":"continue","rating":""}
+2024-09-21 10:29:49 [INFO]: Initiating text-to-speech...
+2024-09-21 10:29:49 [INFO]: Starting TTS process using ElevenLabs for text: "Thank you, Methyl! How may I assist you today?"
+2024-09-21 10:29:52 [ERROR]: Failed to send judgement: connect EHOSTUNREACH 192.168.248.169:8000
+2024-09-21 10:30:01 [INFO]: Environment variables loaded successfully
+2024-09-21 10:30:01 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:30:01 [INFO]: Real-Time STT system starting...
+2024-09-21 10:30:02 [INFO]: Session opened with ID: 4d4e4d94-2bac-4ab9-89c2-37c7774abdee
+2024-09-21 10:30:02 [INFO]: Starting recording
+2024-09-21 10:30:02 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:30:02 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:30:07 [INFO]: Received final transcript: Oakshwana and.
+2024-09-21 10:30:07 [INFO]: User input: Oakshwana and.
+2024-09-21 10:30:07 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:30:08 [INFO]: OpenAI API call successful!
+2024-09-21 10:30:08 [INFO]: Chat response: Hello! Could you please confirm your name?
+2024-09-21 10:30:08 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:30:10 [INFO]: OpenAI API call successful!
+2024-09-21 10:30:10 [INFO]: Judgement data: {"name":"Oakshwana","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"Customer's name is Oakshwana. Further details are needed to assist them properly.","action":"continue","rating":""}
+2024-09-21 10:30:10 [INFO]: Initiating text-to-speech...
+2024-09-21 10:30:10 [INFO]: Starting TTS process using ElevenLabs for text: "Hello! Could you please confirm your name?"
+2024-09-21 10:30:13 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:30:16 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:30:16 [INFO]: Text-to-speech successful!
+2024-09-21 10:30:18 [INFO]: Received final transcript: Moxie smell.
+2024-09-21 10:30:18 [INFO]: User input: Moxie smell.
+2024-09-21 10:30:18 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:30:19 [INFO]: OpenAI API call successful!
+2024-09-21 10:30:19 [INFO]: Chat response: Thank you, Moxie. How can I assist you today?
+2024-09-21 10:30:19 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:30:20 [INFO]: SIGINT received, stopping recording
+2024-09-21 10:32:02 [INFO]: Environment variables loaded successfully
+2024-09-21 10:32:02 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:32:02 [INFO]: Real-Time STT system starting...
+2024-09-21 10:32:04 [INFO]: Session opened with ID: 39a969bf-2039-48d4-b864-009691b67be5
+2024-09-21 10:32:04 [INFO]: Starting recording
+2024-09-21 10:32:04 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:32:04 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:32:10 [INFO]: Received final transcript: Hi there. Are you listening to me?
+2024-09-21 10:32:10 [INFO]: User input: Hi there. Are you listening to me?
+2024-09-21 10:32:10 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:32:12 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:12 [INFO]: Chat response: Yes, I'm here to help! May I have your name, please?
+2024-09-21 10:32:12 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:32:13 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:13 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The user initiated the call, confirming if the assistant is listening.","action":"continue","rating":""}
+2024-09-21 10:32:13 [INFO]: Initiating text-to-speech...
+2024-09-21 10:32:13 [INFO]: Starting TTS process using ElevenLabs for text: "Yes, I'm here to help! May I have your name, please?"
+2024-09-21 10:32:16 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:32:19 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:32:19 [INFO]: Text-to-speech successful!
+2024-09-21 10:32:24 [INFO]: Received final transcript: Yes. I'm here to help. May I have your name, please?
+2024-09-21 10:32:24 [INFO]: User input: Yes. I'm here to help. May I have your name, please?
+2024-09-21 10:32:24 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:32:25 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:25 [INFO]: Chat response: I'm the AI assistant for SATIM's call center. Could you please tell me your name?
+2024-09-21 10:32:25 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:32:27 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:27 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The customer repeated the assistant's request for their name without providing it.","action":"continue","rating":""}
+2024-09-21 10:32:27 [INFO]: Initiating text-to-speech...
+2024-09-21 10:32:27 [INFO]: Starting TTS process using ElevenLabs for text: "I'm the AI assistant for SATIM's call center. Could you please tell me your name?"
+2024-09-21 10:32:30 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:32:35 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:32:35 [INFO]: Text-to-speech successful!
+2024-09-21 10:32:39 [INFO]: Received final transcript: My name is Zodane Sale. Could you please tell me your name?
+2024-09-21 10:32:39 [INFO]: User input: My name is Zodane Sale. Could you please tell me your name?
+2024-09-21 10:32:39 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:32:39 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:39 [INFO]: Chat response: Thank you, Zodane Sale! I'm here to assist you with any questions or concerns you may have. How can I help you today?
+2024-09-21 10:32:39 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:32:42 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:42 [ERROR]: Error during call: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+2024-09-21 10:32:43 [INFO]: Received final transcript: My name is Saleh.
+2024-09-21 10:32:43 [INFO]: User input: My name is Saleh.
+2024-09-21 10:32:43 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:32:44 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:44 [INFO]: Chat response: Thank you, Saleh! How can I assist you today?
+2024-09-21 10:32:44 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:32:46 [INFO]: OpenAI API call successful!
+2024-09-21 10:32:46 [INFO]: Judgement data: {"name":"Saleh","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The customer introduced themselves as Saleh and inquired about the assistant's name.","action":"continue","rating":""}
+2024-09-21 10:32:46 [INFO]: Initiating text-to-speech...
+2024-09-21 10:32:46 [INFO]: Starting TTS process using ElevenLabs for text: "Thank you, Saleh! How can I assist you today?"
+2024-09-21 10:32:48 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:32:51 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:32:51 [INFO]: Text-to-speech successful!
+2024-09-21 10:33:00 [INFO]: Received final transcript: I have a complaint.
+2024-09-21 10:33:00 [INFO]: User input: I have a complaint.
+2024-09-21 10:33:00 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:33:01 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:01 [INFO]: Chat response: I'm here to help with that, Saleh. Could you please provide the details of your complaint?
+2024-09-21 10:33:01 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:33:03 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:03 [INFO]: Judgement data: {"name":"Saleh","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer has expressed that they have a complaint but has not provided details yet.","action":"continue","rating":""}
+2024-09-21 10:33:03 [INFO]: Initiating text-to-speech...
+2024-09-21 10:33:03 [INFO]: Starting TTS process using ElevenLabs for text: "I'm here to help with that, Saleh. Could you please provide the details of your complaint?"
+2024-09-21 10:33:06 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:33:11 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:33:11 [INFO]: Text-to-speech successful!
+2024-09-21 10:33:15 [INFO]: Received final transcript: Provide the details of your complaint.
+2024-09-21 10:33:15 [INFO]: User input: Provide the details of your complaint.
+2024-09-21 10:33:15 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:33:16 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:16 [INFO]: Chat response: Could you please share the specifics of your complaint, such as the issue you're facing?
+2024-09-21 10:33:16 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:33:18 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:18 [INFO]: Judgement data: {"name":"Saleh","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer has expressed that they have a complaint but has not provided specific details.","action":"continue","rating":""}
+2024-09-21 10:33:18 [INFO]: Initiating text-to-speech...
+2024-09-21 10:33:18 [INFO]: Starting TTS process using ElevenLabs for text: "Could you please share the specifics of your complaint, such as the issue you're facing?"
+2024-09-21 10:33:21 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:33:26 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:33:26 [INFO]: Text-to-speech successful!
+2024-09-21 10:33:29 [INFO]: Received final transcript: I lost my. Such as the issue you're facing.
+2024-09-21 10:33:29 [INFO]: User input: I lost my. Such as the issue you're facing.
+2024-09-21 10:33:29 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:33:30 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:30 [INFO]: Chat response: It sounds like you've lost something, could you please specify what you've lost?
+2024-09-21 10:33:30 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:33:32 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:32 [INFO]: Judgement data: {"name":"Saleh","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer reported a lost item, but the details were not fully provided.","action":"continue","rating":""}
+2024-09-21 10:33:32 [INFO]: Initiating text-to-speech...
+2024-09-21 10:33:32 [INFO]: Starting TTS process using ElevenLabs for text: "It sounds like you've lost something, could you please specify what you've lost?"
+2024-09-21 10:33:35 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:33:40 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:33:40 [INFO]: Text-to-speech successful!
+2024-09-21 10:33:43 [INFO]: Received final transcript: Please specify what you've lost.
+2024-09-21 10:33:43 [INFO]: User input: Please specify what you've lost.
+2024-09-21 10:33:43 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:33:44 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:44 [INFO]: Chat response: Could you tell me what you've lost, so I can assist you better?
+2024-09-21 10:33:44 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:33:47 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:47 [INFO]: Judgement data: {"name":"Saleh","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer has reported a lost item but has not provided specific details about the lost item.","action":"continue","rating":""}
+2024-09-21 10:33:47 [INFO]: Initiating text-to-speech...
+2024-09-21 10:33:47 [INFO]: Starting TTS process using ElevenLabs for text: "Could you tell me what you've lost, so I can assist you better?"
+2024-09-21 10:33:50 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:33:53 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:33:53 [INFO]: Text-to-speech successful!
+2024-09-21 10:33:56 [INFO]: Received final transcript: Yeah, we'd heard.
+2024-09-21 10:33:56 [INFO]: User input: Yeah, we'd heard.
+2024-09-21 10:33:56 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:33:57 [INFO]: OpenAI API call successful!
+2024-09-21 10:33:57 [INFO]: Chat response: I’m here to help! Can you please provide more information about what you need assistance with?
+2024-09-21 10:33:57 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:34:00 [INFO]: OpenAI API call successful!
+2024-09-21 10:34:00 [ERROR]: Error during call: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+2024-09-21 10:34:01 [INFO]: Received final transcript: I lost my credit card.
+2024-09-21 10:34:01 [INFO]: User input: I lost my credit card.
+2024-09-21 10:34:01 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:34:02 [INFO]: SIGINT received, stopping recording
+2024-09-21 10:34:52 [INFO]: Environment variables loaded successfully
+2024-09-21 10:34:52 [INFO]: Connecting to real-time transcript service
+2024-09-21 10:34:52 [INFO]: Real-Time STT system starting...
+2024-09-21 10:34:53 [INFO]: Session opened with ID: f2664b88-e8ac-4deb-9488-9d5d2a90b4cb
+2024-09-21 10:34:53 [INFO]: Starting recording
+2024-09-21 10:34:53 [INFO]: Recording started and streaming to transcription service
+2024-09-21 10:34:53 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 10:34:59 [INFO]: Received final transcript: Hello there.
+2024-09-21 10:34:59 [INFO]: User input: Hello there.
+2024-09-21 10:34:59 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:35:00 [INFO]: OpenAI API call successful!
+2024-09-21 10:35:00 [INFO]: Chat response: Hello! May I have your name, please?
+2024-09-21 10:35:00 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:35:02 [INFO]: OpenAI API call successful!
+2024-09-21 10:35:02 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"The customer greeted the assistant, but no specific issue or inquiry has been presented yet.","action":"continue","rating":""}
+2024-09-21 10:35:02 [INFO]: Initiating text-to-speech...
+2024-09-21 10:35:02 [INFO]: Starting TTS process using ElevenLabs for text: "Hello! May I have your name, please?"
+2024-09-21 10:35:05 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:35:07 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:35:07 [INFO]: Text-to-speech successful!
+2024-09-21 10:35:16 [INFO]: Received final transcript: Yes. My name is Alejitin.
+2024-09-21 10:35:16 [INFO]: User input: Yes. My name is Alejitin.
+2024-09-21 10:35:16 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:35:17 [INFO]: OpenAI API call successful!
+2024-09-21 10:35:17 [INFO]: Chat response: Thank you, Alejitin! How can I assist you today?
+2024-09-21 10:35:17 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:35:19 [INFO]: OpenAI API call successful!
+2024-09-21 10:35:19 [INFO]: Judgement data: {"name":"Alejitin","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"inquiry","callSummary":"Customer has introduced themselves as Alejitin but has not specified any issues or inquiries yet.","action":"continue","rating":""}
+2024-09-21 10:35:19 [INFO]: Initiating text-to-speech...
+2024-09-21 10:35:19 [INFO]: Starting TTS process using ElevenLabs for text: "Thank you, Alejitin! How can I assist you today?"
+2024-09-21 10:35:21 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:35:24 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:35:24 [INFO]: Text-to-speech successful!
+2024-09-21 10:35:33 [INFO]: Received final transcript: I lost my credit card.
+2024-09-21 10:35:33 [INFO]: User input: I lost my credit card.
+2024-09-21 10:35:33 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:35:34 [INFO]: OpenAI API call successful!
+2024-09-21 10:35:34 [INFO]: Chat response: I'm sorry to hear that, Alejitin. Could you please tell me the card type, the last four digits of the card number, and the date and time it was lost?
+2024-09-21 10:35:34 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:35:36 [INFO]: OpenAI API call successful!
+2024-09-21 10:35:36 [INFO]: Judgement data: {"name":"Alejitin","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer reported that they lost their credit card and requires assistance.","action":"continue","rating":""}
+2024-09-21 10:35:36 [INFO]: Initiating text-to-speech...
+2024-09-21 10:35:36 [INFO]: Starting TTS process using ElevenLabs for text: "I'm sorry to hear that, Alejitin. Could you please tell me the card type, the last four digits of the card number, and the date and time it was lost?"
+2024-09-21 10:35:40 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:35:49 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:35:49 [INFO]: Text-to-speech successful!
+2024-09-21 10:35:59 [INFO]: Received final transcript: It said the habia card. The last four digits are 5621.
+2024-09-21 10:35:59 [INFO]: User input: It said the habia card. The last four digits are 5621.
+2024-09-21 10:35:59 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:36:00 [INFO]: OpenAI API call successful!
+2024-09-21 10:36:00 [INFO]: Chat response: Thank you, Alejitin. When did you lose the card? Please provide the date and time it was lost.
+2024-09-21 10:36:00 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:36:02 [INFO]: OpenAI API call successful!
+2024-09-21 10:36:02 [INFO]: Judgement data: {"name":"Alejitin","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"Habia","cardLastFourDigits":"5621","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"service request","callSummary":"Customer reported that they lost their Habia credit card and provided the last four digits.","action":"continue","rating":""}
+2024-09-21 10:36:02 [INFO]: Initiating text-to-speech...
+2024-09-21 10:36:02 [INFO]: Starting TTS process using ElevenLabs for text: "Thank you, Alejitin. When did you lose the card? Please provide the date and time it was lost."
+2024-09-21 10:36:05 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:36:11 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:36:11 [INFO]: Text-to-speech successful!
+2024-09-21 10:36:19 [INFO]: Received final transcript: I lost it yesterday at 07:00 p.m. That's when I found out.
+2024-09-21 10:36:19 [INFO]: User input: I lost it yesterday at 07:00 p.m. That's when I found out.
+2024-09-21 10:36:19 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 10:36:20 [INFO]: OpenAI API call successful!
+2024-09-21 10:36:20 [INFO]: Chat response: Thank you for the information, Alejitin. I will proceed to report your lost CIB card with the details provided. Can you confirm your national ID number, also known as NIN, for verification?
+2024-09-21 10:36:20 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 10:36:23 [INFO]: OpenAI API call successful!
+2024-09-21 10:36:23 [INFO]: Judgement data: {"name":"Alejitin","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"EDDAHABIA","cardLastFourDigits":"5621","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"complaint","callSummary":"Customer reported losing their EDDAHABIA credit card. The card was lost yesterday at 07:00 p.m.","action":"transferToOperator","rating":""}
+2024-09-21 10:36:23 [INFO]: Initiating text-to-speech...
+2024-09-21 10:36:23 [INFO]: Starting TTS process using ElevenLabs for text: "Thank you for the information, Alejitin. I will proceed to report your lost CIB card with the details provided. Can you confirm your national ID number, also known as NIN, for verification?"
+2024-09-21 10:36:27 [INFO]: Audio generated by ElevenLabs
+2024-09-21 10:36:38 [INFO]: Audio played successfully using ElevenLabs
+2024-09-21 10:36:38 [INFO]: Text-to-speech successful!
+2024-09-21 10:36:38 [INFO]: Transferring call to human operator...
+2024-09-21 10:36:41 [ERROR]: Failed to send judgement: connect EHOSTUNREACH 192.168.248.169:8000

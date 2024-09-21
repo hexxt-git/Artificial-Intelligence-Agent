@@ -3,6 +3,7 @@ import { tts } from "./text_to_speech.js";
 import { systemPrompt, judgePrompt, judgeSchema } from "./model_alignment.js";
 import { logger } from "./logger.js";
 import { endCall } from "./endCall.js";
+import { recording } from "./audio_processing.js";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -19,6 +20,7 @@ let isBusy = false;
 const run_llm = async () => {
   if (!history.length) return;
   isBusy = true;
+  recording?.pause();
 
   try {
     logger.info(`User input: ${queue}`);
@@ -75,6 +77,7 @@ const run_llm = async () => {
       endCall(judgementData);
     } else if (judgementData.action === "transferToOperator") {
       logger.info("Transferring call to human operator...");
+      console.log(`\x1b[36m    Human intervention required   \x1b[0m`);
       // await transferToOperator();
       endCall(judgementData);
     }
@@ -83,12 +86,13 @@ const run_llm = async () => {
   } finally {
     queue = "";
     isBusy = false;
+    recording?.resume();
   }
 };
 
 export const say = async (text) => {
-  queue += text;
   if (!isBusy) {
+    queue += text;
     await run_llm();
   }
 };
