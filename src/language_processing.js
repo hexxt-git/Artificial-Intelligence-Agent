@@ -93,4 +93,4 @@ export const say = async (text) => {
   }
 };
 
-say("direct me to a human please")
+// say("direct me to a human please")

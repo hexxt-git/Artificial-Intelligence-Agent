@@ -150,3 +150,16 @@
 2024-09-21 09:33:47 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-571.mp3
 2024-09-21 09:33:47 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-571.mp3
 2024-09-21 09:33:52 [INFO]: Audio played successfully
+2024-09-21 09:58:38 [INFO]: User input: direct me to a human please
+2024-09-21 09:58:38 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 09:58:38 [INFO]: Environment variables loaded successfully
+2024-09-21 09:58:38 [INFO]: Connecting to real-time transcript service
+2024-09-21 09:58:38 [INFO]: Real-Time STT system starting...
+2024-09-21 09:58:52 [INFO]: OpenAI API call successful!
+2024-09-21 09:58:52 [INFO]: Chat response: I can help you with that, please hold on for a moment while I connect you to a human operator.
+2024-09-21 09:58:52 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 09:59:00 [INFO]: Environment variables loaded successfully
+2024-09-21 09:59:00 [INFO]: Connecting to real-time transcript service
+2024-09-21 09:59:00 [INFO]: Real-Time STT system starting...
+2024-09-21 09:59:34 [ERROR]: Error during transcription: Error: read ECONNRESET
+2024-09-21 09:59:34 [INFO]: Session closed with code: 1006, reason: 

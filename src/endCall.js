@@ -1,15 +1,15 @@
 import { logger } from "./logger.js";
 import axios from "axios";
-import format from 'pretty-format';
+import format from "pretty-format";
 
 export const endCall = async (judgement) => {
   try {
-    console.log('\n\n')
-    console.log({judgement})
-    console.log('\n\n')
+    console.log("\n\n");
+    console.log({ judgement });
+    console.log("\n\n");
 
     const response = await axios.post(
-      "http://192.168.8.121:8000/api/complaints/",
+      "http://192.168.248.169:8000/api/complaints/",
       {
         ...judgement, // ai output is already checked by zod schema
         staffID: 1, // special staff id for Automated calls
