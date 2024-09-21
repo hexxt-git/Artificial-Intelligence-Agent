@@ -59,7 +59,7 @@ const run_llm = async () => {
       ],
     });
     logger.info(`OpenAI API call successful!`);
-    let judgementContent = judgement.choices[0].message.content;
+    let judgementContent = judgement.choices[0].message.content.trim();
     if (/^```.+```$/.test(judgementContent))
       judgementContent = judgementContent.slice(3, -3);
     const judgementData = CallCenterSchema.parse(JSON.parse(judgementContent));

@@ -1,9 +1,10 @@
 import { logger } from "./logger.js";
+import axios from "axios";
 
 export const endCall = async (judgement) => {
   try {
     const response = await axios.post(
-      "http://localhost:3000/judgement",
+      "http://192.168.8.121:8080/add_complain",
       { ...judgement },
       {
         headers: {

@@ -759,3 +759,271 @@
 2024-09-21 03:52:56 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-271.mp3
 2024-09-21 03:52:56 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-271.mp3
 2024-09-21 03:53:01 [INFO]: Audio played successfully
+2024-09-21 04:03:31 [INFO]: User input: transfer me to an operator
+2024-09-21 04:03:31 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:03:31 [INFO]: Environment variables loaded successfully
+2024-09-21 04:03:31 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:03:31 [INFO]: Real-Time STT system starting...
+2024-09-21 04:03:32 [INFO]: Session opened with ID: ad30ce64-9028-483c-9aa7-3b7113e129da
+2024-09-21 04:03:32 [INFO]: Starting recording
+2024-09-21 04:03:32 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:03:32 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:03:32 [INFO]: OpenAI API call successful!
+2024-09-21 04:03:32 [INFO]: Chat response: Sure, I can forward you to a human operator. Please hold for a moment.
+2024-09-21 04:03:32 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:03:34 [INFO]: OpenAI API call successful!
+2024-09-21 04:03:34 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"Customer requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:03:34 [INFO]: Initiating text-to-speech...
+2024-09-21 04:03:34 [INFO]: Starting TTS process for text: "Sure, I can forward you to a human operator. Please hold for a moment."
+2024-09-21 04:03:36 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:03:36 [INFO]: Converted response to buffer
+2024-09-21 04:03:36 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-194.mp3
+2024-09-21 04:03:36 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-194.mp3
+2024-09-21 04:03:38 [INFO]: Received final transcript: So.
+2024-09-21 04:03:41 [INFO]: Audio played successfully
+2024-09-21 04:04:11 [INFO]: User input: transfer me to an operator
+2024-09-21 04:04:11 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:04:11 [INFO]: Environment variables loaded successfully
+2024-09-21 04:04:11 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:04:11 [INFO]: Real-Time STT system starting...
+2024-09-21 04:04:12 [INFO]: Session opened with ID: 7c4ebb08-cdc3-4f27-bd4e-4d8e11cf56aa
+2024-09-21 04:04:12 [INFO]: Starting recording
+2024-09-21 04:04:12 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:04:12 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:04:12 [INFO]: OpenAI API call successful!
+2024-09-21 04:04:12 [INFO]: Chat response: Sure, I'll connect you to an operator right away; please hold on for a moment.
+2024-09-21 04:04:12 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:04:14 [INFO]: OpenAI API call successful!
+2024-09-21 04:04:14 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"Customer requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:04:14 [INFO]: Initiating text-to-speech...
+2024-09-21 04:04:14 [INFO]: Starting TTS process for text: "Sure, I'll connect you to an operator right away; please hold on for a moment."
+2024-09-21 04:04:16 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:04:16 [INFO]: Converted response to buffer
+2024-09-21 04:04:16 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-241.mp3
+2024-09-21 04:04:16 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-241.mp3
+2024-09-21 04:04:21 [INFO]: Audio played successfully
+2024-09-21 04:04:21 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-241.mp3
+2024-09-21 04:04:21 [INFO]: Text-to-speech successful!
+2024-09-21 04:04:21 [INFO]: Transferring call to human operator...
+2024-09-21 04:04:23 [ERROR]: Failed to send judgement: getaddrinfo ENOTFOUND http
+2024-09-21 04:05:25 [INFO]: Environment variables loaded successfully
+2024-09-21 04:05:25 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:05:25 [INFO]: Real-Time STT system starting...
+2024-09-21 04:05:27 [INFO]: Session opened with ID: 37c64390-cd45-4ead-a677-678cd69cfa09
+2024-09-21 04:05:27 [INFO]: Starting recording
+2024-09-21 04:05:27 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:05:27 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:05:32 [INFO]: SIGINT received, stopping recording
+2024-09-21 04:05:34 [INFO]: User input: transfer me to an operator
+2024-09-21 04:05:34 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:05:34 [INFO]: Environment variables loaded successfully
+2024-09-21 04:05:34 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:05:35 [INFO]: Real-Time STT system starting...
+2024-09-21 04:05:35 [INFO]: Session opened with ID: 9bea13d4-4f7b-475a-978a-fca411c4559e
+2024-09-21 04:05:35 [INFO]: Starting recording
+2024-09-21 04:05:35 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:05:35 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:05:36 [INFO]: OpenAI API call successful!
+2024-09-21 04:05:36 [INFO]: Chat response: I can transfer you to an operator right away. Please hold on for a moment.
+2024-09-21 04:05:36 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:05:38 [INFO]: OpenAI API call successful!
+2024-09-21 04:05:38 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"User requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:05:38 [INFO]: Initiating text-to-speech...
+2024-09-21 04:05:38 [INFO]: Starting TTS process for text: "I can transfer you to an operator right away. Please hold on for a moment."
+2024-09-21 04:05:39 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:05:40 [INFO]: Converted response to buffer
+2024-09-21 04:05:40 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-172.mp3
+2024-09-21 04:05:40 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-172.mp3
+2024-09-21 04:05:41 [INFO]: Received final transcript: Little.
+2024-09-21 04:05:45 [INFO]: Audio played successfully
+2024-09-21 04:05:45 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-172.mp3
+2024-09-21 04:05:45 [INFO]: Text-to-speech successful!
+2024-09-21 04:05:45 [INFO]: Transferring call to human operator...
+2024-09-21 04:05:45 [INFO]: Received final transcript: Transfers to an operator.
+2024-09-21 04:05:45 [INFO]: User input: Transfers to an operator.
+2024-09-21 04:05:45 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:05:46 [INFO]: OpenAI API call successful!
+2024-09-21 04:05:46 [INFO]: Chat response: I’m transferring you to an operator now. Please hold on.
+2024-09-21 04:05:46 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:05:48 [ERROR]: Failed to send judgement: getaddrinfo ENOTFOUND http
+2024-09-21 04:06:21 [INFO]: User input: transfer me to an operator
+2024-09-21 04:06:21 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:06:21 [INFO]: Environment variables loaded successfully
+2024-09-21 04:06:21 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:06:22 [INFO]: Real-Time STT system starting...
+2024-09-21 04:06:23 [INFO]: Session opened with ID: 1e257d64-65e0-46f9-8faa-c89b0200f200
+2024-09-21 04:06:23 [INFO]: Starting recording
+2024-09-21 04:06:23 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:06:23 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:06:23 [INFO]: OpenAI API call successful!
+2024-09-21 04:06:23 [INFO]: Chat response: Sure, I can help with that! Please hold on while I connect you to an operator.
+2024-09-21 04:06:23 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:06:25 [INFO]: OpenAI API call successful!
+2024-09-21 04:06:25 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"Customer requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:06:25 [INFO]: Initiating text-to-speech...
+2024-09-21 04:06:25 [INFO]: Starting TTS process for text: "Sure, I can help with that! Please hold on while I connect you to an operator."
+2024-09-21 04:06:28 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:06:29 [INFO]: Converted response to buffer
+2024-09-21 04:06:29 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-380.mp3
+2024-09-21 04:06:29 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-380.mp3
+2024-09-21 04:06:34 [INFO]: Audio played successfully
+2024-09-21 04:06:34 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-380.mp3
+2024-09-21 04:06:34 [INFO]: Text-to-speech successful!
+2024-09-21 04:06:34 [INFO]: Transferring call to human operator...
+2024-09-21 04:06:34 [ERROR]: Failed to send judgement: Request failed with status code 401
+2024-09-21 04:09:08 [INFO]: User input: transfer me to an operator
+2024-09-21 04:09:08 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:09:08 [INFO]: Environment variables loaded successfully
+2024-09-21 04:09:08 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:09:08 [INFO]: Real-Time STT system starting...
+2024-09-21 04:09:09 [INFO]: Session opened with ID: a2735e9f-2aa3-43c3-a663-d07f67c7ca47
+2024-09-21 04:09:09 [INFO]: Starting recording
+2024-09-21 04:09:09 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:09:09 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:09:09 [INFO]: OpenAI API call successful!
+2024-09-21 04:09:09 [INFO]: Chat response: Certainly! I will transfer you to a human operator now. Please hold on a moment.
+2024-09-21 04:09:09 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:09:11 [INFO]: OpenAI API call successful!
+2024-09-21 04:09:11 [ERROR]: Error during call: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+2024-09-21 04:09:18 [INFO]: Received final transcript: Unexpected document.
+2024-09-21 04:09:18 [INFO]: User input: Unexpected document.
+2024-09-21 04:09:18 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:09:19 [INFO]: OpenAI API call successful!
+2024-09-21 04:09:19 [INFO]: Chat response: I can transfer you to an operator right away; please hold on a moment!
+2024-09-21 04:09:19 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:09:21 [INFO]: OpenAI API call successful!
+2024-09-21 04:09:21 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"User requested to be transferred to an operator regarding an unexpected document but did not provide any personal details.","action":"transferToOperator","rating":""}
+2024-09-21 04:09:21 [INFO]: Initiating text-to-speech...
+2024-09-21 04:09:21 [INFO]: Starting TTS process for text: "I can transfer you to an operator right away; please hold on a moment!"
+2024-09-21 04:09:23 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:09:24 [INFO]: Converted response to buffer
+2024-09-21 04:09:24 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-373.mp3
+2024-09-21 04:09:24 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-373.mp3
+2024-09-21 04:09:25 [INFO]: Received final transcript: During.
+2024-09-21 04:09:29 [INFO]: Audio played successfully
+2024-09-21 04:09:29 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-373.mp3
+2024-09-21 04:09:29 [INFO]: Text-to-speech successful!
+2024-09-21 04:09:29 [INFO]: Transferring call to human operator...
+2024-09-21 04:09:29 [ERROR]: Failed to send judgement: Request failed with status code 500
+2024-09-21 04:10:12 [INFO]: User input: transfer me to an operator
+2024-09-21 04:10:12 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:10:12 [INFO]: Environment variables loaded successfully
+2024-09-21 04:10:12 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:10:12 [INFO]: Real-Time STT system starting...
+2024-09-21 04:10:13 [INFO]: Session opened with ID: 4332c762-2791-4ea1-a55f-13553a55b67c
+2024-09-21 04:10:13 [INFO]: Starting recording
+2024-09-21 04:10:13 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:10:13 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:10:14 [INFO]: OpenAI API call successful!
+2024-09-21 04:10:14 [INFO]: Chat response: I will transfer you to a human operator now. Thank you for your patience!
+2024-09-21 04:10:14 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:10:16 [INFO]: OpenAI API call successful!
+2024-09-21 04:10:16 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"User requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:10:16 [INFO]: Initiating text-to-speech...
+2024-09-21 04:10:16 [INFO]: Starting TTS process for text: "I will transfer you to a human operator now. Thank you for your patience!"
+2024-09-21 04:10:17 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:10:18 [INFO]: Converted response to buffer
+2024-09-21 04:10:18 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-164.mp3
+2024-09-21 04:10:18 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-164.mp3
+2024-09-21 04:10:19 [INFO]: Received final transcript: I look?
+2024-09-21 04:10:24 [INFO]: Audio played successfully
+2024-09-21 04:10:24 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-164.mp3
+2024-09-21 04:10:24 [INFO]: Text-to-speech successful!
+2024-09-21 04:10:24 [INFO]: Transferring call to human operator...
+2024-09-21 04:10:24 [ERROR]: Failed to send judgement: Request failed with status code 500
+2024-09-21 04:13:17 [INFO]: User input: transfer me to an operator
+2024-09-21 04:13:17 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:13:17 [INFO]: Environment variables loaded successfully
+2024-09-21 04:13:17 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:13:17 [INFO]: Real-Time STT system starting...
+2024-09-21 04:13:18 [INFO]: Session opened with ID: 0a8590f9-55a3-4dc3-bb69-4b70b63658c4
+2024-09-21 04:13:18 [INFO]: Starting recording
+2024-09-21 04:13:18 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:13:18 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:13:18 [INFO]: OpenAI API call successful!
+2024-09-21 04:13:18 [INFO]: Chat response: Sure, I can transfer you to an operator right away. Please hold on for a moment.
+2024-09-21 04:13:18 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:13:20 [INFO]: OpenAI API call successful!
+2024-09-21 04:13:20 [ERROR]: Error during call: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+2024-09-21 04:13:20 [INFO]: SIGINT received, stopping recording
+2024-09-21 04:13:23 [INFO]: User input: transfer me to an operator
+2024-09-21 04:13:23 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:13:23 [INFO]: Environment variables loaded successfully
+2024-09-21 04:13:23 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:13:23 [INFO]: Real-Time STT system starting...
+2024-09-21 04:13:23 [INFO]: Session opened with ID: 39c0dd65-a256-4414-a7e9-246474763cce
+2024-09-21 04:13:23 [INFO]: Starting recording
+2024-09-21 04:13:23 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:13:23 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:13:24 [INFO]: OpenAI API call successful!
+2024-09-21 04:13:24 [INFO]: Chat response: Sure, I can help with that! Please hold on while I connect you to a human operator.
+2024-09-21 04:13:24 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:13:26 [INFO]: OpenAI API call successful!
+2024-09-21 04:13:26 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"Customer requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:13:26 [INFO]: Initiating text-to-speech...
+2024-09-21 04:13:26 [INFO]: Starting TTS process for text: "Sure, I can help with that! Please hold on while I connect you to a human operator."
+2024-09-21 04:13:28 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:13:28 [INFO]: Converted response to buffer
+2024-09-21 04:13:28 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-308.mp3
+2024-09-21 04:13:28 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-308.mp3
+2024-09-21 04:13:34 [INFO]: Audio played successfully
+2024-09-21 04:13:34 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-308.mp3
+2024-09-21 04:13:34 [INFO]: Text-to-speech successful!
+2024-09-21 04:13:34 [INFO]: Transferring call to human operator...
+2024-09-21 04:13:34 [ERROR]: Failed to send judgement: Request failed with status code 500
+2024-09-21 04:23:41 [INFO]: User input: transfer me to an operator
+2024-09-21 04:23:41 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:23:41 [INFO]: Environment variables loaded successfully
+2024-09-21 04:23:41 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:23:41 [INFO]: Real-Time STT system starting...
+2024-09-21 04:23:42 [INFO]: Session opened with ID: adb041ae-b85d-43e0-9156-602e7dbf04c7
+2024-09-21 04:23:42 [INFO]: Starting recording
+2024-09-21 04:23:42 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:23:42 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:23:42 [INFO]: OpenAI API call successful!
+2024-09-21 04:23:42 [INFO]: Chat response: Sure! I will forward you to a human operator. Please hold on for a moment.
+2024-09-21 04:23:42 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:23:44 [INFO]: OpenAI API call successful!
+2024-09-21 04:23:44 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"Customer requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:23:44 [INFO]: Initiating text-to-speech...
+2024-09-21 04:23:44 [INFO]: Starting TTS process for text: "Sure! I will forward you to a human operator. Please hold on for a moment."
+2024-09-21 04:23:46 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:23:46 [INFO]: Converted response to buffer
+2024-09-21 04:23:46 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-473.mp3
+2024-09-21 04:23:46 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-473.mp3
+2024-09-21 04:23:48 [INFO]: Received final transcript: I had a job.
+2024-09-21 04:23:52 [INFO]: Audio played successfully
+2024-09-21 04:23:52 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-473.mp3
+2024-09-21 04:23:52 [INFO]: Text-to-speech successful!
+2024-09-21 04:23:52 [INFO]: Transferring call to human operator...
+2024-09-21 04:23:52 [INFO]: Exiting...
+2024-09-21 04:24:12 [INFO]: User input: transfer me to an operator
+2024-09-21 04:24:12 [INFO]: Sending request to OpenAI's chat completions API...
+2024-09-21 04:24:12 [INFO]: Environment variables loaded successfully
+2024-09-21 04:24:12 [INFO]: Connecting to real-time transcript service
+2024-09-21 04:24:12 [INFO]: Real-Time STT system starting...
+2024-09-21 04:24:12 [INFO]: Session opened with ID: 865c7ebc-bd5c-4fb3-91c7-21764bdcd9f0
+2024-09-21 04:24:12 [INFO]: Starting recording
+2024-09-21 04:24:12 [INFO]: Recording started and streaming to transcription service
+2024-09-21 04:24:12 [INFO]: Speech-to-text system initialized successfully
+2024-09-21 04:24:13 [INFO]: OpenAI API call successful!
+2024-09-21 04:24:13 [INFO]: Chat response: Sure, I will connect you to an operator right away; please hold on for a moment.
+2024-09-21 04:24:13 [INFO]: Sending request to OpenAI's data extractor API...
+2024-09-21 04:24:15 [INFO]: OpenAI API call successful!
+2024-09-21 04:24:15 [INFO]: Judgement data: {"name":"","contactNumber":"","emailAddress":"","nationalIdNumber":"","cardType":"","cardLastFourDigits":"","bankName":"","merchantName":"","merchantRegistrationNumber":"","transactionDate":"","transactionAmount":"","incidentDate":"","atmLocation":"","websiteUrl":"","callType":"out of scope","callSummary":"Customer requested to be transferred to an operator.","action":"transferToOperator","rating":""}
+2024-09-21 04:24:15 [INFO]: Initiating text-to-speech...
+2024-09-21 04:24:15 [INFO]: Starting TTS process for text: "Sure, I will connect you to an operator right away; please hold on for a moment."
+2024-09-21 04:24:17 [INFO]: Received response from OpenAI TTS API
+2024-09-21 04:24:18 [INFO]: Converted response to buffer
+2024-09-21 04:24:18 [INFO]: Generated temp file path: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-527.mp3
+2024-09-21 04:24:18 [INFO]: Audio file written to disk at: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-527.mp3
+2024-09-21 04:24:18 [INFO]: Received final transcript: And.
+2024-09-21 04:24:23 [INFO]: Audio played successfully
+2024-09-21 04:24:23 [INFO]: Deleted temp file: /home/hexxt/Documents/GitHub/Artificial-Intelligence-Agent/temp/audio-527.mp3
+2024-09-21 04:24:23 [INFO]: Text-to-speech successful!
+2024-09-21 04:24:23 [INFO]: Transferring call to human operator...
+2024-09-21 04:24:23 [INFO]: Exiting...
