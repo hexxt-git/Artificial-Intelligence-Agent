@@ -42,25 +42,30 @@ const run_llm = async () => {
     logger.info(`Chat response: ${chatResponseContent}`);
     console.log(`\x1b[36m    ${chatResponseContent}\x1b[0m`);
 
-    logger.info(`Sending request to OpenAI's data extractor API...`);
-    const judgement = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
-      messages: [
-        {
-          role: "system",
-          content: judgePrompt,
-        },
-        {
-          role: "user",
-          content: JSON.stringify({ history }),
-        },
-      ],
-    });
-    logger.info(`OpenAI API call successful!`);
-    let judgementContent = judgement.choices[0].message.content.trim();
-    if (/^```.+```$/.test(judgementContent))
-      judgementContent = judgementContent.slice(3, -3);
-    const judgementData = judgeSchema.parse(JSON.parse(judgementContent));
+    let judgementData = {};
+    try {
+      logger.info(`Sending request to OpenAI's data extractor API...`);
+      const judgement = await openai.chat.completions.create({
+        model: "gpt-4o-mini",
+        messages: [
+          {
+            role: "system",
+            content: judgePrompt,
+          },
+          {
+            role: "user",
+            content: JSON.stringify({ history }),
+          },
+        ],
+      });
+      logger.info(`OpenAI API call successful!`);
+      let judgementContent = judgement.choices[0].message.content.trim();
+      if (/^```.+```$/.test(judgementContent))
+        judgementContent = judgementContent.slice(3, -3);
+      judgementData = judgeSchema.parse(JSON.parse(judgementContent));
+    } catch (e) {
+      logger.error(`Error in judgement extraction: ${e}`);
+    }
     logger.info(`Judgement data: ${JSON.stringify(judgementData)}`);
 
     history.push({
